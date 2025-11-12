@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Application web de gestion des tâches — Task Manager Web"
+    />
+    <title>Task Manager Web</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Style global -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: #f4f6f8;
+        color: #333;
+      }
+
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .loading {
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      Vous devez activer JavaScript pour exécuter cette application.
+    </noscript>
+
+    <div id="root">
+      <div class="loading">Chargement de l'application...</div>
+    </div>
+  </body>
+</html>
