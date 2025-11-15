@@ -6,9 +6,6 @@ import Register from "./components/Register";
 
 function App() {
   return (
-   <div>
-      <h1>Task Manager Frontend</h1>
-    </div>
     <Router>
       <Routes>
         <Route path="/" element={<Login />} />
